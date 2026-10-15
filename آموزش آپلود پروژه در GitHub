@@ -1,0 +1,68 @@
+
+# آموزش آپلود پروژه در GitHub
+
+## 1. کلون کردن مخزن
+
+ابتدا مخزن را روی سیستم خود دریافت کنید:
+
+```bash
+git clone https://github.com/microsoftmac/p1.md.git
+```
+
+## 2. ورود به پوشه پروژه
+
+```bash
+cd p1.md
+```
+
+## 3. کپی کردن فایل‌ها
+
+تمام فایل‌ها و پوشه‌های پروژه را داخل پوشه `p1.md` کپی کنید.
+
+## 4. اضافه کردن فایل‌ها به Git
+
+```bash
+git add .
+```
+
+## 5. ثبت تغییرات (Commit)
+
+```bash
+git commit -m "Initial upload"
+```
+
+## 6. آپلود روی GitHub
+
+اگر شاخه اصلی **main** است:
+
+```bash
+git push origin main
+```
+
+اگر شاخه اصلی **master** است:
+
+```bash
+git push origin master
+```
+
+---
+
+## روش آپلود از طریق وب‌سایت GitHub
+
+1. وارد مخزن شوید.
+2. روی **Add file** کلیک کنید.
+3. گزینه **Upload files** را انتخاب کنید.
+4. فایل‌ها را انتخاب یا Drag & Drop کنید.
+5. یک پیام برای Commit وارد کنید.
+6. روی **Commit changes** کلیک کنید.
+
+---
+
+## دستورات Git
+
+| دستور | توضیح |
+|--------|-------|
+| `git clone` | دریافت مخزن از GitHub |
+| `git add .` | اضافه کردن فایل‌ها |
+| `git commit -m "..."` | ثبت تغییرات |
+| `git push origin main` | ارسال تغییرات به GitHub |
